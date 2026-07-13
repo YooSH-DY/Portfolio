@@ -6,7 +6,7 @@
 비전과 웨어러블 센서 데이터를 안정적인 제스처 인식 결과로 변환하고,  
 이를 실제로 동작하는 실시간 인터랙션 시스템까지 연결합니다.
 
-[GitHub](https://github.com/YooSH-DY) · [ORCID](https://orcid.org/0009-0007-9674-3499) · Email: `YOUR_EMAIL` · [Resume](YOUR_RESUME_LINK)
+[GitHub](https://github.com/YooSH-DY) · Email: `imasp@naver.com` ·
 
 ---
 
@@ -39,7 +39,7 @@
 
 ## Featured Projects
 
-### 1. Structured 3-State Hand Gesture Recognition
+### 1. 가상현실 환경의 손·손가락 제스처 인식을 위한 구조화된 3단계 분류 모델
 
 **Journal of KIISE, 2026 · First Author · Repository Available**
 
@@ -57,10 +57,8 @@
 
 `Python` · `OpenCV` · `MediaPipe Hands` · `WebSocket` · `Unity` · `C#`
 
-[View Repository](https://github.com/YooSH-DY/JOK26-3)
-<!-- 공식 논문 페이지가 준비되면 아래 주석을 해제하세요.
-· [View Paper](PAPER_LINK)
--->
+[View Repository](https://github.com/YooSH-DY/JOK26-3) · [Publication](https://jok.kiise.or.kr/digital-library/manuscript/file/106055/07.pdf)
+
 
 ---
 
@@ -220,10 +218,10 @@ Wonkwang University, 2023
 ## Contact
 
 - GitHub: [YooSH-DY](https://github.com/YooSH-DY)
-- ORCID: [0009-0007-9674-3499](https://orcid.org/0009-0007-9674-3499)
-- Email: `YOUR_EMAIL`
+- Email: `imasp@naver.com`
+<!--
 - Resume: `YOUR_RESUME_LINK`
-
+-->
 ---
 
 <sub>
