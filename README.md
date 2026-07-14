@@ -109,7 +109,7 @@ Top/Bottom 카메라 기반 데이터 수집부터 규칙 기반 방법과 딥�
 
 `Python` · `MediaPipe Hands` · `Movella DOT IMU` · `Quaternion` · `WebSocket` · `Unity` · `C#`
 
-[저장소 보기]([https://github.com/YooSH-DY/JOK26-3](https://github.com/YooSH-DY/Minimal-Input-to-Maximal-Movement)) · [게재 정보](https://doi.org/10.1145/3756884.3768392) 
+[저장소 보기](https://github.com/YooSH-DY/Minimal-Input-to-Maximal-Movement) · [게재 정보](https://doi.org/10.1145/3756884.3768392) 
 
 ---
 
