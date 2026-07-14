@@ -65,7 +65,7 @@
 
 ### 2. Multi-view Hand Gesture Recognition Pipeline
 
-**진행 중인 연구 · 저장소 공개**
+**논문 심사 중 · 저장소 공개**
 
 Top/Bottom 카메라 기반 데이터 수집부터 규칙 기반 방법과 딥러닝 모델 비교, 실시간 측정, Unity 연동까지 하나의 환경에서 검증할 수 있도록 구성한 연구 파이프라인입니다.
 
@@ -75,7 +75,7 @@ Top/Bottom 카메라 기반 데이터 수집부터 규칙 기반 방법과 딥�
 
 - 사용자·세션 단위 듀얼 카메라 제스처 데이터 수집 구조 설계
 - MediaPipe 3D landmark 기반 state/relation vector 규칙 정의 및 인식 로직 구현
-- YOLOv10n, DeiT, MLP, SGCN 비교 모델 구현·수정 및 실험 환경 구성
+- YOLOv10n, DeiT, SGCN 비교 모델 구현·수정 및 실험 환경 구성
 - FPS, CPU, RAM, GPU, prediction, confidence 측정·로깅 기능 구현
 - 정적·동적 제스처 안정화 로직과 UDP 기반 Unity command bridge 구현·통합
 
@@ -109,7 +109,7 @@ Top/Bottom 카메라 기반 데이터 수집부터 규칙 기반 방법과 딥�
 
 `Python` · `MediaPipe Hands` · `Movella DOT IMU` · `Quaternion` · `WebSocket` · `Unity` · `C#`
 
-[게재 정보](https://doi.org/10.1145/3756884.3768392) · `저장소 정리 중`
+[저장소 보기]([https://github.com/YooSH-DY/JOK26-3](https://github.com/YooSH-DY/Minimal-Input-to-Maximal-Movement)) · [게재 정보](https://doi.org/10.1145/3756884.3768392) 
 
 ---
 
@@ -133,7 +133,7 @@ Top/Bottom 카메라 기반 데이터 수집부터 규칙 기반 방법과 딥�
 
 `Movella DOT IMU` · `Quaternion` · `Python` · `WebSocket` · `Unity` · `Animator` · `C#`
 
-[게재 정보](https://doi.org/10.1145/3694907.3765952) · `저장소 정리 중`
+[저장소 보기](https://github.com/YooSH-DY/Wrist-Based-Spatial-Gestures-for-Multi-Parameter-Avatar-Dance-Control) · [게재 정보](https://doi.org/10.1145/3694907.3765952)
 
 ---
 
@@ -157,7 +157,7 @@ Top/Bottom 카메라 기반 데이터 수집부터 규칙 기반 방법과 딥�
 
 `Python` · `MediaPipe Hands` · `WebSocket` · `Unity` · `Humanoid IK` · `CSV Logging`
 
-[게재 정보](https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00097) · `저장소 정리 중`
+[저장소 보기](https://github.com/YooSH-DY/Hand-Finger-gesture-standardization-for-FCI-Finger-Computer-Interface-in-XR) · [게재 정보](https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00097)
 
 ---
 
@@ -181,7 +181,7 @@ Apple Watch, 손가락 IMU, 웹캠을 결합해 제한된 공간에서 걷기, �
 
 `Python` · `Apple Watch` · `Movella DOT IMU` · `MediaPipe Hands` · `WebSocket` · `Unity` · `C#`
 
-[게재 정보](https://doi.org/10.1145/3746058.3758438) · `저장소 정리 중`
+[저장소 보기](https://github.com/YooSH-DY/Controlling-Avatar-Locomotion-with-Minimal-Wrist-and-Finger-Gestures) · [게재 정보](https://doi.org/10.1145/3746058.3758438)
 
 ---
 
