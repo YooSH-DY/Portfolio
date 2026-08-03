@@ -1,13 +1,14 @@
 # 유세혁 포트폴리오
 
-**연구·소프트웨어 엔지니어**  
 `컴퓨터 비전` · `센서 융합` · `실시간 인터랙션` · `응용 AI`
 
-비전과 웨어러블 센서 데이터를 활용해 제스처 인식 방법과 시스템 요구사항을 설계하고,  
-센서 입력부터 Unity 동작까지 이어지는 실시간 인터랙션 파이프라인을 설계하고, 핵심 로직을 구현·수정하며 시스템을 통합·검증해왔습니다.
+비전과 웨어러블 센서 데이터를 활용해 제스처 인식 방법과 시스템 요구사항을 정의하고,  
+센서 입력부터 Unity 동작까지 이어지는 실시간 인터랙션 파이프라인의 핵심 로직을 구현하며 시스템을 통합·검증해왔습니다.
+
 <!--
 **Email:** `imasp@naver.com`
 -->
+
 ---
 
 ## 소개
@@ -21,19 +22,19 @@
 ## 핵심 역량
 
 - **실시간 인터랙션 시스템 개발**  
-  센서 입력 수집, 전처리, 인식·분류, 네트워크 통신, Unity 반영까지 이어지는 시스템 구조 설계, 핵심 로직 구현·수정 및 통합
+  센서 입력 수집, 전처리, 인식·분류, 네트워크 통신, Unity 반영까지 이어지는 시스템 구조를 구성하고 핵심 로직을 구현·수정
 
 - **강건한 제스처 인식 방법 설계**  
   3D landmark의 각도·거리·관계 특징 정의, 3단계 상태 분류, One Euro Filter·EMA·temporal validation 적용
 
 - **모델 비교 및 실험 검증**  
-  규칙 기반 방법과 YOLOv10n, DeiT, MLP, SGCN의 정확도·처리 속도·자원 사용량 비교
+  규칙 기반 방법과 YOLOv10n, DeiT, MLP, S-GCN의 정확도·처리 속도·자원 사용량 비교
 
 - **멀티모달 입력 통합**  
   Webcam, Apple Watch, Movella DOT IMU 등 서로 다른 입력을 하나의 아바타 제어 파이프라인으로 연결
 
 - **연구 프로토타입 개발**  
-  사용자 평가용 시스템과 CSV logging, resource profiling, 반복 실험 및 오류 검증 환경 구현·구성
+  사용자 평가용 시스템, CSV logging, resource profiling, 반복 실험 및 오류 검증 환경 구현
 
 ---
 
@@ -67,7 +68,7 @@
 
 **논문 심사 중 · 저장소 공개**
 
-Top/Bottom 카메라 기반 데이터 수집부터 규칙 기반 방법과 딥러닝 모델 비교, 실시간 측정, Unity 연동까지 하나의 환경에서 검증할 수 있도록 구성한 연구 파이프라인입니다.
+1번 연구의 규칙 기반 인식 방법을 확장해, 멀티뷰 데이터 수집과 딥러닝 비교 평가, 실시간 성능 측정 및 Unity 연동까지 하나의 환경에서 검증할 수 있도록 구성한 연구 파이프라인입니다.
 
 **담당:** 데이터 수집·평가 구조 설계, 규칙 기반 로직과 비교 모델 구현·수정, 실시간 측정·로깅 환경 통합 및 검증
 
@@ -75,13 +76,13 @@ Top/Bottom 카메라 기반 데이터 수집부터 규칙 기반 방법과 딥�
 
 - 사용자·세션 단위 듀얼 카메라 제스처 데이터 수집 구조 설계
 - MediaPipe 3D landmark 기반 state/relation vector 규칙 정의 및 인식 로직 구현
-- YOLOv10n, DeiT, SGCN 비교 모델 구현·수정 및 실험 환경 구성
+- YOLOv10n, DeiT, S(T=1)-GCN 비교 모델 구현·수정 및 실험 환경 구성
 - FPS, CPU, RAM, GPU, prediction, confidence 측정·로깅 기능 구현
 - 정적·동적 제스처 안정화 로직과 UDP 기반 Unity command bridge 구현·통합
 
 **기술 스택**
 
-`Python` · `PyTorch` · `YOLOv10n` · `DeiT` · `SGCN` · `MediaPipe` · `UDP` · `Unity`
+`Python` · `PyTorch` · `YOLOv10n` · `DeiT` · `S-GCN` · `MediaPipe` · `UDP` · `Unity`
 
 [저장소 보기](https://github.com/YooSH-DY/multi-view-hand-gesture-recognition)
 
@@ -91,7 +92,7 @@ Top/Bottom 카메라 기반 데이터 수집부터 규칙 기반 방법과 딥�
 
 ### 3. Minimal Input to Maximal Movement: Real-Time Avatar Control with Dual-sensor
 
-**ACM VRST 2025 · 제1저자**
+**ACM VRST 2025 · 포스터 · 제1저자**
 
 웹캠과 손등 IMU를 결합해 최소한의 입력으로 아바타 댄스 동작과 연속 모션 파라미터를 실시간 제어한 시스템입니다.
 
@@ -109,22 +110,22 @@ Top/Bottom 카메라 기반 데이터 수집부터 규칙 기반 방법과 딥�
 
 `Python` · `MediaPipe Hands` · `Movella DOT IMU` · `Quaternion` · `WebSocket` · `Unity` · `C#`
 
-[저장소 보기](https://github.com/YooSH-DY/Minimal-Input-to-Maximal-Movement) · [게재 정보](https://doi.org/10.1145/3756884.3768392) 
+[저장소 보기](https://github.com/YooSH-DY/Minimal-Input-to-Maximal-Movement) · [게재 정보](https://doi.org/10.1145/3756884.3768392)
 
 ---
 
 ### 4. Wrist-Based Spatial Gestures for Multi-Parameter Avatar Dance Control
 
-**ACM SUI 2025 · 제2저자**
+**ACM SUI 2025 · 포스터 · 제2저자**
 
 손등의 단일 IMU 센서로 손목의 공간 움직임을 분석하고, 하나의 입력으로 여러 아바타 동작 파라미터를 동시에 제어한 인터랙션입니다.
 
-**담당:** IMU 기반 방법론과 파라미터 매핑 구조 설계, 핵심 제어 로직 구현·수정, Unity 인터랙션 시스템 통합 및 동작 검증
+**담당:** IMU 기반 파라미터 매핑 구현, 센서 입력 처리 로직 수정, Unity 인터랙션 시스템 통합 및 동작 검증
 
 **주요 수행 내용**
 
-- 손등 IMU의 quaternion 데이터를 이용한 손목 roll·pitch 기반 공간 제스처 정의
-- 손목 움직임을 이동 방향, 상체 회전, 골반 기울기, 애니메이션 속도로 변환하는 매핑 구조 설계
+- 손등 IMU의 quaternion 데이터를 이용한 손목 roll·pitch 기반 공간 제스처 처리
+- 손목 움직임을 이동 방향, 상체 회전, 골반 기울기, 애니메이션 속도로 변환하는 매핑 구현
 - 센서 입력의 범위 보정과 아바타 파라미터 정규화 로직 구현·수정
 - 실시간 센서 데이터 수신과 Unity Animator 제어 기능 통합
 - 동작 조건별 출력 확인과 사용자 평가용 프로토타입 검증
@@ -139,15 +140,15 @@ Top/Bottom 카메라 기반 데이터 수집부터 규칙 기반 방법과 딥�
 
 ### 5. Hand/Finger Gesture Standardization for FCI (Finger-Computer-Interface) in XR
 
-**IEEE ISMAR-Adjunct 2025 · 제2저자**
+**IEEE ISMAR Adjunct 2025 · 포스터 · 제2저자**
 
-손 형태와 손가락 간 거리를 아바타의 동작 모드 및 연속 모션 파라미터로 변환하는 실시간 인터랙션 시스템입니다.
+XR 환경에서 손·손가락 제스처를 일관되게 표현하기 위한 상태와 관계를 정의하고, 이를 실시간 아바타 인터랙션 프로토타입에 적용한 연구입니다.
 
-**담당:** 제스처 인식·캘리브레이션 방법론 설계, 핵심 입력 처리·안정화 로직 구현·수정, Python–Unity 연동 및 실험 환경 구성
+**담당:** 제스처 인식·캘리브레이션 로직 구현, 입력 안정화 처리, Python–Unity 연동 및 평가 환경 구성
 
 **주요 수행 내용**
 
-- MediaPipe 기반 hand gesture mode와 finger-distance parameter 정의
+- MediaPipe 기반 hand gesture mode와 finger-distance parameter 처리
 - 사용자별 손가락 거리 캘리브레이션 및 정규화 기능 구현
 - EMA와 연속 프레임 확인을 이용한 입력 안정화 로직 구현·수정
 - WebSocket 기반 Python–Unity 실시간 통신 기능 통합
@@ -163,16 +164,16 @@ Top/Bottom 카메라 기반 데이터 수집부터 규칙 기반 방법과 딥�
 
 ### 6. Controlling Avatar Locomotion with Minimal Wrist and Finger Gestures
 
-**ACM UIST Adjunct 2025 · 제2저자**
+**ACM UIST Adjunct 2025 · 포스터 · 제2저자**
 
-Apple Watch, 손가락 IMU, 웹캠을 결합해 제한된 공간에서 걷기, 후진, 점프 등의 아바타 로코모션을 제어한 멀티센서 인터랙션 시스템입니다.
+Apple Watch, Movella DOT IMU, 웹캠을 결합해 제한된 공간에서 걷기, 후진, 방향 전환, 점프 등의 아바타 로코모션을 제어한 멀티센서 인터랙션 시스템입니다.
 
-**담당:** 멀티센서 기반 방법론과 로코모션 매핑 구조 설계, 핵심 입력 처리·제어 로직 구현·수정, 실시간 시스템 통합 및 사용자 평가 환경 구성
+**담당:** 멀티센서 입력 처리, 로코모션 매핑 로직 구현·수정, Python–Unity 실시간 시스템 통합 및 사용자 평가 환경 구성
 
 **주요 수행 내용**
 
-- Apple Watch, 손가락 IMU, MediaPipe Hands 입력을 결합하는 멀티센서 구조 설계
-- 손목 움직임과 손가락 제스처를 걷기, 후진, 방향 전환, 점프 동작으로 변환하는 매핑 정의
+- Apple Watch, Movella DOT IMU, MediaPipe Hands 입력을 결합하는 멀티센서 처리 구조 구현
+- 손목 움직임과 손가락 제스처를 걷기, 후진, 방향 전환, 점프 동작으로 변환하는 매핑 구현
 - 센서별 입력 범위와 조건을 조정하는 전처리·판별 로직 구현·수정
 - Python 기반 데이터 처리와 Unity 아바타 로코모션 제어 기능 통합
 - 제한된 공간에서 사용할 수 있는 사용자 평가용 프로토타입과 실험 환경 구성
@@ -190,11 +191,12 @@ Apple Watch, 손가락 IMU, 웹캠을 결합해 제한된 공간에서 걷기, �
 | 구분 | 기술 |
 |---|---|
 | 프로그래밍 언어 | Python, C# |
-| 비전·AI | OpenCV, MediaPipe Hands, PyTorch, YOLOv10n, DeiT, MLP, SGCN |
+| 비전·AI | OpenCV, MediaPipe Hands, PyTorch |
+| 모델 비교 | YOLOv10n, DeiT, MLP, S-GCN |
 | 센서 처리 | IMU quaternion/acceleration, 3D landmarks, One Euro Filter, EMA |
-| 실시간 통신 | WebSocket, UDP, JSON command protocol |
+| 실시간 통신 | WebSocket, UDP |
 | XR·애플리케이션 | Unity, Animator, Humanoid IK, real-time avatar control |
-| 실험·평가 | CSV logging, resource profiling, threshold analysis, user-study prototype |
+| 데이터·실험 | JSON, CSV logging, resource profiling, threshold analysis, user-study prototype |
 
 ---
 
@@ -209,7 +211,6 @@ Apple Watch, 손가락 IMU, 웹캠을 결합해 제한된 공간에서 걷기, �
 ---
 
 <sub>
-본 포트폴리오의 `구현`은 연구 방법과 시스템 요구사항을 바탕으로 코드를 작성·수정하고, 실제 실행 환경에서 통합·검증한 범위를 의미합니다.  
 본 저장소는 취업용 연구 포트폴리오 허브입니다.  
 각 프로젝트 저장소에는 공개 가능한 소스 코드와 구현 설명만 포함하며, 참가자 데이터, 상용 에셋, 대용량 모델 파일 및 미공개 연구 자료는 제외합니다.
 </sub>
