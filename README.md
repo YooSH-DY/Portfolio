@@ -66,7 +66,7 @@
 
 ### 2. Multi-view Hand Gesture Recognition Pipeline
 
-**논문 심사 중 · 저장소 공개**
+**IEEE Access · 2026 · 제2저자**
 
 1번 연구의 규칙 기반 인식 방법을 확장해, 멀티뷰 데이터 수집과 딥러닝 비교 평가, 실시간 성능 측정 및 Unity 연동까지 하나의 환경에서 검증할 수 있도록 구성한 연구 파이프라인입니다.
 
@@ -84,7 +84,7 @@
 
 `Python` · `PyTorch` · `YOLOv10n` · `DeiT` · `S-GCN` · `MediaPipe` · `UDP` · `Unity`
 
-[저장소 보기](https://github.com/YooSH-DY/multi-view-hand-gesture-recognition)
+[저장소 보기](https://github.com/YooSH-DY/multi-view-hand-gesture-recognition) · [게재 정보](https://www.researchgate.net/publication/417251304_Vector-Based_Hand_Gesture_Representation_for_Stable_Interaction)
 
 > 논문 심사와 연구 데이터 보호를 위해 원본 참가자 영상, 전체 실험 로그, 모델 가중치와 심사 자료는 공개 저장소에서 제외했습니다.
 
